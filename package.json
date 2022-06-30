@@ -39,9 +39,9 @@
     "prepublishOnly": "tnpm run clean && tnpm run tsc",
     "test": "jest --coverage",
     "tsc": "tsc -b ./tsconfig.json",
-    "tsc:w": "tnpm run tsc -- -w",
-    "preversion": "npm test && tsc",
-    "postversion": "tnpm publish && git push && git push --tags"
+    "tsc:w": "npm run tsc -- -w",
+    "preversion": "npm run tsc",
+    "postversion": "npm publish && git push && git push --tags"
   },
   "ci": {
     "type": "aci",
