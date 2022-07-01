@@ -47,10 +47,6 @@
     "type": "aci",
     "versions": "14, 16"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wbye/hi-friday.git"
-  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
